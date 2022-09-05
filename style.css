@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 1080px;
+
+  background: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+nav, .logo, .cart {
+  margin-top: 10rem;
+}
+
+.logo, .cart {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+/* General CSS */
+.flex {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  justify-content: space-between;
+}
+
+/* Nav */
+.nav-list {
+  margin-top: 4.25rem;
+  font-size: 22.5px;
+  gap: 2rem;
+  list-style: none;
+
+  margin-left: 50rem;
+
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: pink;
+}
+
+.cart {
+  height: 0%;
+}
+
+/* Landing Page */
+
+.landing-page {
+  position: absolute;
+  color: white;
+
+  top: 600px;
+  left: 120px;
+  font-size: 50px;
+}
+
+.book {
+  position: absolute;
+  top: 860px;
+  left: 120px;
+
+  width: 280px;
+  height: 50px;
+
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(234, 57, 57);
+
+  border: 1px solid #979797;
+  border-radius: 21px;
+}
+
