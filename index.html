@@ -4,46 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Custom Fonts -->
+    <script src="https://kit.fontawesome.com/ee90ddacec.js" crossorigin="anonymous"></script>
+
     <title>TSC</title>
   </head>
 
   <body>
-    <header class="flex justify">
+    <header>
       <!-- Logo -->
-      <div class="logo">
-        <img src="img/logo-placeholder.png" alt="logo" width="200px">
-      </div>
+      <img id="main-logo" src="img/logo.gif" alt="Slightly Curious Logo">
+      
+      <nav id="main-nav" class="flex justify">
+        <!-- Nav List -->
+       <div id="nav-list">
+         <a href="#">Giftcard</a>
+         <a href="#">Workshop</a>
+         <a href="#">About</a>
+         <a href="#">Contact</a>  
+        </div>
 
-      <!-- Nav -->
-      <nav>
-        <ul class="nav-list flex">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Giftcard</a>
-          </li>
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">Workshop</a>
-          </li>
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
-          </li>
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
-          </li>
-
-          <li class="nav-item login">
-            <a href="#" class="nav-link">LOG IN</a>
-          </li>
-        </ul>
+        <!-- Cart Button-->
+        <i id="cart" class="fas fa-shopping-cart"></i>
       </nav>
-
-      <!-- Cart -->
-      <button class="cart" aria-label="View Chart">
-        <img src="img/cart-placeholder.png" alt="cart" width="150px">
-      </button>
-
     </header>
 
     <main>
