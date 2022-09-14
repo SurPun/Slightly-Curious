@@ -133,10 +133,12 @@ header button {
 }
 
 .user {
-  cursor: pointer;
+  margin-inline: auto;
+  width: max-content;
 }
 
 .user:hover {
+  cursor: pointer;
   text-decoration: underline;
 }
 
