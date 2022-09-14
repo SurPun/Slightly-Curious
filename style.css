@@ -6,7 +6,6 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color:crimson;
 }
 
 /* Tag CSS */
@@ -14,6 +13,8 @@ header {
   background-image: url(img/bg.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+
+  height: 100%;
 }
 
 /* General CSS */
@@ -25,6 +26,18 @@ header {
 
 .justify {
   justify-content: flex-end;
+}
+
+.section-divider {
+  display: block;
+  width: 80vw;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+
+  margin-top: -2vw;
+  margin-bottom: 2vw;
 }
 
 /* Header-Styles */
@@ -86,7 +99,12 @@ header h1, header p, header button {
 }
 
 header {
-  font-size: 2.5rem;
+  font-size: 2vw;
+}
+
+header p {
+  margin-top: 0.8vw;
+  font-weight: bold;
 }
 
 header button {
@@ -99,8 +117,94 @@ header button {
   cursor: pointer;
 
   margin-top: 2vw;
-  margin-bottom: 60rem;
+  margin-bottom: 12.5vw;
 
   font-weight: 700;
   font-size: 18px;
+}
+
+/* Review Slides */
+.slide-container {
+  display: block;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.user {
+  cursor: pointer;
+}
+
+.user:hover {
+  text-decoration: underline;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 180px;
+  height: auto;
+}
+
+.user-name {
+  text-align: center;
+  margin-top: -25px;
+
+  letter-spacing: 0.1rem;
+}
+
+.review-stars {
+  display: table;
+  margin: auto;
+
+  font-size: 35px;
+  color: orange;
+}
+
+.review-msg {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+
+  margin-top: 1rem;
+}
+
+.read-more {
+  cursor: pointer;
+  font-size: 15px;
+  opacity: 50%;
+  letter-spacing: 0.1rem;
+  text-align: center;
+
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.circle {
+  cursor: pointer;
+  text-align: center;
+
+  background-color: grey;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+
+  margin-top: 2vw;
+}
+
+.circle:hover {
+  background-color: pink;
+}
+
+.prev, .next {
+  font-size: 30px;
+  color: white;
+}
+
+.slide-button {
+  gap: 2.5vw;
+  margin-bottom: -6rem;
 }
