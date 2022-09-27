@@ -12,9 +12,7 @@ body {
 header {
   background-image: url(img/bg.jpg);
   background-size: 100%;
-  background-repeat: no-repeat;
-
-  height: 100%;
+  background-repeat:round;
 }
 
 /* General CSS */
