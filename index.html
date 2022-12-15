@@ -6,7 +6,10 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <!-- Custom Fonts -->
-    <script src="https://kit.fontawesome.com/ee90ddacec.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ee90ddacec.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>TSC</title>
   </head>
@@ -15,37 +18,33 @@
     <header>
       <!-- Logo -->
       <a href="index.html">
-        <img id="main-logo" src="img/logo.gif" alt="Slightly Curious Logo">
+        <img id="main-logo" src="img/logo.gif" alt="Slightly Curious Logo" />
       </a>
 
-      
       <nav id="main-nav" class="flex justify">
         <!-- Nav List -->
-       <div id="nav-list">
-         <a href="#">Giftcard</a>
-         <a href="#">Workshop</a>
-         <a href="#">About</a>
-         <a href="#">Contact</a>  
-         
-       </div>
+        <div id="nav-list">
+          <a href="#">Giftcard</a>
+          <a href="#">Workshop</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
 
-       <!-- Cart Button-->
-       <i id="cart" class="fas fa-shopping-cart"></i>
+        <!-- Cart Button-->
+        <i id="cart" class="fas fa-shopping-cart"></i>
       </nav>
-      
+
       <!-- Header Info -->
 
       <div id="header-info">
         <h1>Make Creativity Accessible</h1>
 
         <p>
-          All Pottery Workshops are designed to encourage and inspire<br>
+          All Pottery Workshops are designed to encourage and inspire<br />
           people to be curious
         </p>
 
-        <button class="book">
-          Book Pottery Workshop
-        </button>
+        <button class="book">Book Pottery Workshop</button>
       </div>
     </header>
 
@@ -53,47 +52,106 @@
       <!-- Review Slides -->
       <section>
         <div class="slide-container">
-
           <div class="flex justify slide-button">
-
             <span class="circle">
               <a class="prev" onclick="">&#10094;</a>
-             </span>
-
-            <span class="circle">
-             <a class="next" onclick="">&#10095;</a>
             </span>
 
-         </div>
-          
-         <div class="user"> 
-          <img 
-          class="avatar"
-          src="img/avatar.svg"
-          alt="User profile pic"
-          />
-          <h2 class="user-name">Name Placeholder</h2>
-        </div>
+            <span class="circle">
+              <a class="next" onclick="">&#10095;</a>
+            </span>
+          </div>
 
-
+          <div class="user">
+            <img class="avatar" src="img/avatar.svg" alt="User profile pic" />
+            <h2 class="user-name">Name Placeholder</h2>
+          </div>
 
           <div>
-            <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="review-stars"
+              >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+            >
 
             <p class="review-msg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure autem, aliquam accusamus ratione minima qui blanditiis doloribus ipsam culpa laudantium fugiat dolorem commodi. Quisquam, provident.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+              autem, aliquam accusamus ratione minima qui blanditiis doloribus
+              ipsam culpa laudantium fugiat dolorem commodi. Quisquam,
+              provident.
             </p>
 
             <p class="read-more">Read more</p>
-
           </div>
-
         </div>
       </section>
 
       <!-- Red Line -->
       <div class="section-divider"></div>
 
+      <!-- FAQ -->
+      <section class="faq">
+        <div class="dropdown">
+          <button onclick="handleClick()" class="dropbtn">
+            What days do you run the workshop?
+          </button>
+
+          <div id="myDropdown" class="dropdown-content">
+            <p><strong>Regular Pottery Worksop</strong></p>
+            <p>
+              <strong>Classes</strong> - Saturday & Sunday 11am and 3pm session.
+            </p>
+            <p><strong>Private Classes</strong> - Flexible dates</p>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button onclick="handleClick2()" class="dropbtn">
+            Do i need to have any experience?
+          </button>
+
+          <div id="myDropdown" class="dropdown-content">
+            <li>No experience needed. All levels welcomed.</li>
+            <li>
+              The workshop is suitable for anyone who is interested in learning
+              pottery.
+            </li>
+            <li>Anyone under the age of 10 please contact us.</li>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button onclick="handleClick3()" class="dropbtn">
+            How do I get to the Studio?
+          </button>
+
+          <div id="myDropdown" class="dropdown-content">
+            <li>
+              <strong>By public transport</strong> - Nearest station is
+              <strong>Alperton</strong> ( Piccadily line ) or
+              <strong>Hanger Lane</strong> ( central line )
+            </li>
+            <li>By Car - The slightly Curious Studio google map or HA0 1QL</li>
+            <li>
+              The studio is in the second floor of Unit 1
+              <strong>Venice house , Artist studio company</strong> Building .
+            </li>
+            <li>
+              The studio entrance is on the right side of the Venice house
+              building.
+            </li>
+            <li>
+              Once you arrive at the " artist studio company " entrance , please
+              ring the bell that says The slightly curious or give us a call to
+              open the door.
+            </li>
+          </div>
+        </div>
+      </section>
+
+      <!-- MAP -->
+      <section></section>
+
+      <!-- Contact Form -->
+      <section></section>
     </main>
 
     <script src="script.js"></script>

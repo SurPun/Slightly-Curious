@@ -12,7 +12,7 @@ body {
 header {
   background-image: url(img/bg.jpg);
   background-size: 100%;
-  background-repeat:round;
+  background-repeat: round;
 }
 
 /* General CSS */
@@ -43,7 +43,7 @@ header {
   position: relative;
   padding-top: 6.4vw;
   padding-left: 4vw;
-  
+
   max-width: 175px;
 
   filter: brightness(150%);
@@ -92,7 +92,9 @@ header {
   letter-spacing: 0.15em;
 }
 
-header h1, header p, header button {
+header h1,
+header p,
+header button {
   color: white;
 }
 
@@ -127,10 +129,10 @@ header button {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .user {
+  margin-top: 2.5rem;
   margin-inline: auto;
   width: max-content;
 }
@@ -199,7 +201,8 @@ header button {
   background-color: pink;
 }
 
-.prev, .next {
+.prev,
+.next {
   font-size: 30px;
   color: white;
 }
@@ -207,4 +210,53 @@ header button {
 .slide-button {
   gap: 2.5vw;
   margin-bottom: -6rem;
+}
+
+.faq {
+  text-align: center;
+}
+
+/* Dropdown */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown p:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
 }
