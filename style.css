@@ -35,7 +35,6 @@ header {
   background-color: red;
 
   margin-top: -2vw;
-  margin-bottom: 2vw;
 }
 
 .line2 {
@@ -224,6 +223,7 @@ header button {
   margin-right: auto;
   gap: 25px;
   padding: 20px;
+  margin-top: 25px;
 }
 
 /* Dropdown */
