@@ -1,4 +1,7 @@
 # Slightly-Curious
 [<-- Live Page -->](https://surpun.github.io/Slightly-Curious/)
 
-A project to replicate a live website: https://theslightlycurious.studio/
+Reference: [The Slightly Curious Studio](https://theslightlycurious.studio/)
+
+## Project
+A Simple landing page for a Pottery Studio.
