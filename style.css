@@ -39,7 +39,8 @@ header {
 }
 
 .line2 {
-  margin-top: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 /* Header-Styles */
@@ -298,7 +299,39 @@ header button {
   margin-right: auto;
 }
 
-.social footer {
-  margin: 3rem;
+.social-list {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.social-list a {
+  text-decoration: none;
+}
+
+i {
+  font-size: 40px;
+  color: black;
+}
+
+i:hover {
+  color: pink;
+}
+
+.copy-right {
   text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+footer {
+  margin: 12px 12px;
+  text-align: center;
+  line-height: 22px;
+}
+
+footer div {
+  margin: 20px;
 }
